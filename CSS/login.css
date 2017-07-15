@@ -95,6 +95,8 @@
   font-size: 14px;
 }
 
+.login__form input: placeholder
+
 .login__form input:focus {
   outline: none;
   border-color: #d4d4d4;
