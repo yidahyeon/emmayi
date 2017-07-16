@@ -53,16 +53,25 @@
   border-radius: 3px;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s ease;
 }
 
 .profile__edit-btn button:active,
 .profile__edit-btn button:focus {
   outline: none;
+  transform: scale(0.9,0.9)
 }
 
 .profile__icon {
   font-size: 20px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
+
+.profile__icon:hover{
+  transform: rotate(1turn);
+}
+
 
 .profile__stat {
   margin-right: 20px;
